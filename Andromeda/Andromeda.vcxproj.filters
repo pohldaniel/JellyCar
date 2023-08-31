@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Andromeda">
+      <UniqueIdentifier>{59e0d2b2-73af-4241-b0e0-7b58f2412edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Audio">
+      <UniqueIdentifier>{dcee8749-10da-47b9-bc74-61cb63c40e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\FileSystem">
+      <UniqueIdentifier>{5480f95f-98a7-4f59-81fa-51f0656080a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Graphics">
+      <UniqueIdentifier>{e491fa0c-d3e0-4281-83ca-8710ecb453c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Input">
+      <UniqueIdentifier>{28613606-1889-46dc-b8b2-a461ade5b3cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Math">
+      <UniqueIdentifier>{97f0ce1d-3dfc-418c-a6de-6cdd46434e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Network">
+      <UniqueIdentifier>{f93ac39f-1914-408d-ad3c-03eb487eb465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\System">
+      <UniqueIdentifier>{c0ddaf99-86c5-4c6b-b39a-c06227c356ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Threading">
+      <UniqueIdentifier>{974d03a4-03ec-4e9d-a146-701c742a3df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Utils">
+      <UniqueIdentifier>{f77e9de8-45e7-4e28-a82b-79643b530c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Audio\IrrKlang">
+      <UniqueIdentifier>{823c4ba4-acb4-4912-82d7-ce9bdb96594c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Audio\SDL">
+      <UniqueIdentifier>{cb14c4f1-1b5a-4a06-b18f-912ebdf7f20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\FileSystem\Stdio">
+      <UniqueIdentifier>{256e790b-a43e-4a0c-bd80-9f042414102c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Graphics\Animation">
+      <UniqueIdentifier>{19e232a8-979e-402a-9cd7-9d44de9cc0a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Graphics\GL">
+      <UniqueIdentifier>{5b7cead0-0bc8-425f-82da-47726338b804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Graphics\Models">
+      <UniqueIdentifier>{46650e84-da4d-461c-b3eb-5068fe39192e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Graphics\Text">
+      <UniqueIdentifier>{cb85d358-9daa-4c87-bdfb-8bcdc150e9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Input\GLFW">
+      <UniqueIdentifier>{cd9f5700-cdfd-4445-92c6-800f62321abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Network\WinSock">
+      <UniqueIdentifier>{c40b5656-4b99-4d20-8b70-6b24ede19ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\Threading\Windows">
+      <UniqueIdentifier>{8b3c54ee-fbed-4a04-b15c-25d00b203163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda\System\GLFW">
+      <UniqueIdentifier>{fc9e9459-cfef-4a11-91c8-31c49948300c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio\IrrKlang\IrrAudioManager.cpp">
+      <Filter>Andromeda\Audio\IrrKlang</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\IrrKlang\IrrSound.cpp">
+      <Filter>Andromeda\Audio\IrrKlang</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Sdl\SdlAudioManager.cpp">
+      <Filter>Andromeda\Audio\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Sdl\SdlSound.cpp">
+      <Filter>Andromeda\Audio\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioManager.cpp">
+      <Filter>Andromeda\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Sound.cpp">
+      <Filter>Andromeda\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\Stdio\StdioDirectory.cpp">
+      <Filter>Andromeda\FileSystem\Stdio</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\Stdio\StdioFile.cpp">
+      <Filter>Andromeda\FileSystem\Stdio</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\BaseDirectory.cpp">
+      <Filter>Andromeda\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\BaseFile.cpp">
+      <Filter>Andromeda\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\FileManager.cpp">
+      <Filter>Andromeda\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\AnimatedMesh.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\AnimBaker.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\AnimMat4.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\AnimQuat.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\AnimVec3.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\Blend.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\CCDSolver.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\cgltf.c">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\Clip.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\CrossFadecontroller.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\Crowd.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\DualQuaternion.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\FABRIKSolver.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\GLTFLoader.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\IKLeg.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\Intersections.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\Pose.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\RearrangeBones.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\Skeleton.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\Track.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\Transform.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation\TransformTrack.cpp">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GL\FrameBufferObjectGL3.cpp">
+      <Filter>Andromeda\Graphics\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GL\RenderManagerGL3.cpp">
+      <Filter>Andromeda\Graphics\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GL\ShaderGlsl.cpp">
+      <Filter>Andromeda\Graphics\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GL\VertexArrayObjectGL3.cpp">
+      <Filter>Andromeda\Graphics\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GL\VertexBufferObjectGL3.cpp">
+      <Filter>Andromeda\Graphics\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Models\AnimatedModel.cpp">
+      <Filter>Andromeda\Graphics\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Models\ModelMaterial.cpp">
+      <Filter>Andromeda\Graphics\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Models\ModelObj.cpp">
+      <Filter>Andromeda\Graphics\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Text\FontManager.cpp">
+      <Filter>Andromeda\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Text\TextureAtlas.cpp">
+      <Filter>Andromeda\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Text\TexturedFont.cpp">
+      <Filter>Andromeda\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Camera3d.cpp">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\FrameBufferObject.cpp">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\RenderManager.cpp">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Shader.cpp">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ShaderManager.cpp">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Sprite.cpp">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Texture.cpp">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\TextureManager.cpp">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\VertexArrayObject.cpp">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\VertexBufferObject.cpp">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\GLFW\GamepadDeviceGlfw.cpp">
+      <Filter>Andromeda\Input\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\GLFW\InputManagerGlfw.cpp">
+      <Filter>Andromeda\Input\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\GLFW\KeyboardDeviceGlfw.cpp">
+      <Filter>Andromeda\Input\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\GLFW\MouseDeviceGlfw.cpp">
+      <Filter>Andromeda\Input\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputManager.cpp">
+      <Filter>Andromeda\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Math.cpp">
+      <Filter>Andromeda\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\WinSock\WinSockNetworkManager.cpp">
+      <Filter>Andromeda\Network\WinSock</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\WinSock\WinSockTcpSocket.cpp">
+      <Filter>Andromeda\Network\WinSock</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkManager.cpp">
+      <Filter>Andromeda\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Packet.cpp">
+      <Filter>Andromeda\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\TcpSocket.cpp">
+      <Filter>Andromeda\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Logger.cpp">
+      <Filter>Andromeda\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\SimpleProfiler.cpp">
+      <Filter>Andromeda\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\Win32\WinMutex.cpp">
+      <Filter>Andromeda\Threading\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\Win32\WinThread.cpp">
+      <Filter>Andromeda\Threading\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\Lock.cpp">
+      <Filter>Andromeda\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\Mutex.cpp">
+      <Filter>Andromeda\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\Sleep.cpp">
+      <Filter>Andromeda\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\Thread.cpp">
+      <Filter>Andromeda\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\WinSleep.cpp">
+      <Filter>Andromeda\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GLFW\GlfwGameLoader.cpp">
+      <Filter>Andromeda\System\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GLFW\MemoryManagerGlfw.cpp">
+      <Filter>Andromeda\System\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GameLoader.cpp">
+      <Filter>Andromeda\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GameManager.cpp">
+      <Filter>Andromeda\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GameState.cpp">
+      <Filter>Andromeda\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\MemoryManager.cpp">
+      <Filter>Andromeda\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\SystemManager.cpp">
+      <Filter>Andromeda\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Timer.cpp">
+      <Filter>Andromeda\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio\IrrKlang\IrrAudioManager.h">
+      <Filter>Andromeda\Audio\IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\IrrKlang\IrrSound.h">
+      <Filter>Andromeda\Audio\IrrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Sdl\SdlAudioManager.h">
+      <Filter>Andromeda\Audio\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Sdl\SdlSound.h">
+      <Filter>Andromeda\Audio\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioManager.h">
+      <Filter>Andromeda\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Sound.h">
+      <Filter>Andromeda\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\Stdio\StdioDirectory.h">
+      <Filter>Andromeda\FileSystem\Stdio</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\Stdio\StdioFile.h">
+      <Filter>Andromeda\FileSystem\Stdio</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\BaseDirectory.h">
+      <Filter>Andromeda\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\BaseFile.h">
+      <Filter>Andromeda\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\FileManager.h">
+      <Filter>Andromeda\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\AnimatedMesh.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\AnimBaker.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\AnimMat4.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\AnimQuat.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\AnimVec2.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\AnimVec3.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\AnimVec4.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\Blending.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\CCDSolver.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\cgltf.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\cgltf_write.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\Clip.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\CrossFadeController.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\CrossFadeTarget.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\Crowd.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\DualQuaternion.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\FABRIKSolver.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\Frame.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\GLTFLoader.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\IKLeg.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\Interpolation.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\Intersections.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\khrplatform.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\Pose.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\RearrangeBones.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\Skeleton.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\SkinningType.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\Track.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\Transform.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation\TransformTrack.h">
+      <Filter>Andromeda\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GL\FrameBufferObjectGL3.h">
+      <Filter>Andromeda\Graphics\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GL\RenderManagerGL3.h">
+      <Filter>Andromeda\Graphics\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GL\ShaderGlsl.h">
+      <Filter>Andromeda\Graphics\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GL\VertexArrayObjectGL3.h">
+      <Filter>Andromeda\Graphics\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GL\VertexBufferObjectGL3.h">
+      <Filter>Andromeda\Graphics\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Models\AnimatedModel.h">
+      <Filter>Andromeda\Graphics\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Models\ModelMaterial.h">
+      <Filter>Andromeda\Graphics\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Models\ModelMesh.h">
+      <Filter>Andromeda\Graphics\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Models\ModelObj.h">
+      <Filter>Andromeda\Graphics\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Text\FontManager.h">
+      <Filter>Andromeda\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Text\TextPart.h">
+      <Filter>Andromeda\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Text\TextureAtlas.h">
+      <Filter>Andromeda\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Text\TexturedFont.h">
+      <Filter>Andromeda\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Camera3d.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\FrameBufferObject.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GraphicsEnums.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\RenderManager.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shader.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ShaderManager.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Sprite.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Texture.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\TextureManager.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexArrayObject.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexBufferObject.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexTypes.h">
+      <Filter>Andromeda\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\GLFW\GamepadDeviceGlfw.h">
+      <Filter>Andromeda\Input\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\GLFW\InputManagerGlfw.h">
+      <Filter>Andromeda\Input\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\GLFW\KeyboardDeviceGlfw.h">
+      <Filter>Andromeda\Input\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\GLFW\MouseDeviceGlfw.h">
+      <Filter>Andromeda\Input\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\GamepadDevice.h">
+      <Filter>Andromeda\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputDevice.h">
+      <Filter>Andromeda\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputEnums.h">
+      <Filter>Andromeda\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputManager.h">
+      <Filter>Andromeda\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\KeyboardDevice.h">
+      <Filter>Andromeda\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\KeyboardInput.h">
+      <Filter>Andromeda\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\MouseDevice.h">
+      <Filter>Andromeda\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\TouchDevice.h">
+      <Filter>Andromeda\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Andromeda\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\WinSock\WinSockNetworkManager.h">
+      <Filter>Andromeda\Network\WinSock</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\WinSock\WinSockTcpSocket.h">
+      <Filter>Andromeda\Network\WinSock</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkManager.h">
+      <Filter>Andromeda\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet.h">
+      <Filter>Andromeda\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\TcpSocket.h">
+      <Filter>Andromeda\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Logger.h">
+      <Filter>Andromeda\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PlatformConfigurator.h">
+      <Filter>Andromeda\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\SimpleProfiler.h">
+      <Filter>Andromeda\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Win32\WinMutex.h">
+      <Filter>Andromeda\Threading\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Win32\WinSleep.h">
+      <Filter>Andromeda\Threading\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Win32\WinThread.h">
+      <Filter>Andromeda\Threading\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\BaseLock.h">
+      <Filter>Andromeda\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\BaseMutex.h">
+      <Filter>Andromeda\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\BaseThread.h">
+      <Filter>Andromeda\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Lock.h">
+      <Filter>Andromeda\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Mutex.h">
+      <Filter>Andromeda\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Sleep.h">
+      <Filter>Andromeda\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Thread.h">
+      <Filter>Andromeda\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GLFW\GlfwGameLoader.h">
+      <Filter>Andromeda\System\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GLFW\MemoryManagerGlfw.h">
+      <Filter>Andromeda\System\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GameLoader.h">
+      <Filter>Andromeda\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GameManager.h">
+      <Filter>Andromeda\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GameState.h">
+      <Filter>Andromeda\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\MemoryManager.h">
+      <Filter>Andromeda\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\SystemEnums.h">
+      <Filter>Andromeda\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\SystemManager.h">
+      <Filter>Andromeda\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Timer.h">
+      <Filter>Andromeda\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

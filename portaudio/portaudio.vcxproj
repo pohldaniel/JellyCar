@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libportaudio\src\common\pa_allocation.c" />
+    <ClCompile Include="..\libportaudio\src\common\pa_converters.c" />
+    <ClCompile Include="..\libportaudio\src\common\pa_cpuload.c" />
+    <ClCompile Include="..\libportaudio\src\common\pa_debugprint.c" />
+    <ClCompile Include="..\libportaudio\src\common\pa_dither.c" />
+    <ClCompile Include="..\libportaudio\src\common\pa_front.c" />
+    <ClCompile Include="..\libportaudio\src\common\pa_process.c" />
+    <ClCompile Include="..\libportaudio\src\common\pa_ringbuffer.c" />
+    <ClCompile Include="..\libportaudio\src\common\pa_stream.c" />
+    <ClCompile Include="..\libportaudio\src\common\pa_trace.c" />
+    <ClCompile Include="..\libportaudio\src\hostapi\dsound\pa_win_ds.c" />
+    <ClCompile Include="..\libportaudio\src\hostapi\dsound\pa_win_ds_dynlink.c" />
+    <ClCompile Include="..\libportaudio\src\hostapi\skeleton\pa_hostapi_skeleton.c" />
+    <ClCompile Include="..\libportaudio\src\hostapi\wasapi\pa_win_wasapi.c" />
+    <ClCompile Include="..\libportaudio\src\hostapi\wdmks\pa_win_wdmks.c" />
+    <ClCompile Include="..\libportaudio\src\hostapi\wmme\pa_win_wmme.c" />
+    <ClCompile Include="..\libportaudio\src\os\win\pa_win_coinitialize.c" />
+    <ClCompile Include="..\libportaudio\src\os\win\pa_win_hostapis.c" />
+    <ClCompile Include="..\libportaudio\src\os\win\pa_win_util.c" />
+    <ClCompile Include="..\libportaudio\src\os\win\pa_win_waveformat.c" />
+    <ClCompile Include="..\libportaudio\src\os\win\pa_win_wdmks_utils.c" />
+    <ClCompile Include="..\libportaudio\src\os\win\pa_x86_plain_converters.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libportaudio\src\common\pa_allocation.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_converters.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_cpuload.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_debugprint.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_dither.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_endianness.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_gitrevision.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_hostapi.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_memorybarrier.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_process.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_ringbuffer.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_stream.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_trace.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_types.h" />
+    <ClInclude Include="..\libportaudio\src\common\pa_util.h" />
+    <ClInclude Include="..\libportaudio\src\hostapi\dsound\pa_win_ds_dynlink.h" />
+    <ClInclude Include="..\libportaudio\src\os\win\pa_win_coinitialize.h" />
+    <ClInclude Include="..\libportaudio\src\os\win\pa_win_wdmks_utils.h" />
+    <ClInclude Include="..\libportaudio\src\os\win\pa_x86_plain_converters.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1f820482-bb0d-4471-a54e-91e476f0aff0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>portaudio</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\lib\x64\</OutDir>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\lib\x86\</OutDir>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\libd\x64\</OutDir>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\libd\x86\</OutDir>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;PAWIN_USE_DIRECTSOUNDFULLDUPLEXCREATE;PAWIN_USE_WDMKS_DEVICE_INFO;PORTAUDIO_CMAKE_GENERATED;PA_LITTLE_ENDIAN;portaudio_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\libportaudio;..\libportaudio\include;..\libportaudio\src\common;..\libportaudio\src\os\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <ModuleDefinitionFile>portaudio.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;PAWIN_USE_DIRECTSOUNDFULLDUPLEXCREATE;PAWIN_USE_WDMKS_DEVICE_INFO;PORTAUDIO_CMAKE_GENERATED;PA_LITTLE_ENDIAN;portaudio_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\libportaudio;..\libportaudio\include;..\libportaudio\src\common;..\libportaudio\src\os\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <ModuleDefinitionFile>portaudio.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CRT_SECURE_NO_WARNINGS;PAWIN_USE_DIRECTSOUNDFULLDUPLEXCREATE;PAWIN_USE_WDMKS_DEVICE_INFO;PORTAUDIO_CMAKE_GENERATED;PA_LITTLE_ENDIAN;portaudio_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\libportaudio;..\libportaudio\include;..\libportaudio\src\common;..\libportaudio\src\os\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>portaudio.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;PAWIN_USE_DIRECTSOUNDFULLDUPLEXCREATE;PAWIN_USE_WDMKS_DEVICE_INFO;PORTAUDIO_CMAKE_GENERATED;PA_LITTLE_ENDIAN;portaudio_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\libportaudio;..\libportaudio\include;..\libportaudio\src\common;..\libportaudio\src\os\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>portaudio.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

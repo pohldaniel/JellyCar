@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio\AudioManager.cpp" />
+    <ClCompile Include="Audio\IrrKlang\IrrAudioManager.cpp" />
+    <ClCompile Include="Audio\IrrKlang\IrrSound.cpp" />
+    <ClCompile Include="Audio\Sdl\SdlAudioManager.cpp" />
+    <ClCompile Include="Audio\Sdl\SdlSound.cpp" />
+    <ClCompile Include="Audio\Sound.cpp" />
+    <ClCompile Include="FileSystem\BaseDirectory.cpp" />
+    <ClCompile Include="FileSystem\BaseFile.cpp" />
+    <ClCompile Include="FileSystem\FileManager.cpp" />
+    <ClCompile Include="FileSystem\Stdio\StdioDirectory.cpp" />
+    <ClCompile Include="FileSystem\Stdio\StdioFile.cpp" />
+    <ClCompile Include="Graphics\Animation\AnimatedMesh.cpp" />
+    <ClCompile Include="Graphics\Animation\AnimBaker.cpp" />
+    <ClCompile Include="Graphics\Animation\AnimMat4.cpp" />
+    <ClCompile Include="Graphics\Animation\AnimQuat.cpp" />
+    <ClCompile Include="Graphics\Animation\AnimVec3.cpp" />
+    <ClCompile Include="Graphics\Animation\Blend.cpp" />
+    <ClCompile Include="Graphics\Animation\CCDSolver.cpp" />
+    <ClCompile Include="Graphics\Animation\cgltf.c" />
+    <ClCompile Include="Graphics\Animation\Clip.cpp" />
+    <ClCompile Include="Graphics\Animation\CrossFadecontroller.cpp" />
+    <ClCompile Include="Graphics\Animation\Crowd.cpp" />
+    <ClCompile Include="Graphics\Animation\DualQuaternion.cpp" />
+    <ClCompile Include="Graphics\Animation\FABRIKSolver.cpp" />
+    <ClCompile Include="Graphics\Animation\GLTFLoader.cpp" />
+    <ClCompile Include="Graphics\Animation\IKLeg.cpp" />
+    <ClCompile Include="Graphics\Animation\Intersections.cpp" />
+    <ClCompile Include="Graphics\Animation\Pose.cpp" />
+    <ClCompile Include="Graphics\Animation\RearrangeBones.cpp" />
+    <ClCompile Include="Graphics\Animation\Skeleton.cpp" />
+    <ClCompile Include="Graphics\Animation\Track.cpp" />
+    <ClCompile Include="Graphics\Animation\Transform.cpp" />
+    <ClCompile Include="Graphics\Animation\TransformTrack.cpp" />
+    <ClCompile Include="Graphics\Camera3d.cpp" />
+    <ClCompile Include="Graphics\FrameBufferObject.cpp" />
+    <ClCompile Include="Graphics\GL\FrameBufferObjectGL3.cpp" />
+    <ClCompile Include="Graphics\GL\RenderManagerGL3.cpp" />
+    <ClCompile Include="Graphics\GL\ShaderGlsl.cpp" />
+    <ClCompile Include="Graphics\GL\VertexArrayObjectGL3.cpp" />
+    <ClCompile Include="Graphics\GL\VertexBufferObjectGL3.cpp" />
+    <ClCompile Include="Graphics\Models\AnimatedModel.cpp" />
+    <ClCompile Include="Graphics\Models\ModelMaterial.cpp" />
+    <ClCompile Include="Graphics\Models\ModelObj.cpp" />
+    <ClCompile Include="Graphics\RenderManager.cpp" />
+    <ClCompile Include="Graphics\Shader.cpp" />
+    <ClCompile Include="Graphics\ShaderManager.cpp" />
+    <ClCompile Include="Graphics\Sprite.cpp" />
+    <ClCompile Include="Graphics\Texture.cpp" />
+    <ClCompile Include="Graphics\TextureManager.cpp" />
+    <ClCompile Include="Graphics\Text\FontManager.cpp" />
+    <ClCompile Include="Graphics\Text\TextureAtlas.cpp" />
+    <ClCompile Include="Graphics\Text\TexturedFont.cpp" />
+    <ClCompile Include="Graphics\VertexArrayObject.cpp" />
+    <ClCompile Include="Graphics\VertexBufferObject.cpp" />
+    <ClCompile Include="Input\GLFW\GamepadDeviceGlfw.cpp" />
+    <ClCompile Include="Input\GLFW\InputManagerGlfw.cpp" />
+    <ClCompile Include="Input\GLFW\KeyboardDeviceGlfw.cpp" />
+    <ClCompile Include="Input\GLFW\MouseDeviceGlfw.cpp" />
+    <ClCompile Include="Input\InputManager.cpp" />
+    <ClCompile Include="Math\Math.cpp" />
+    <ClCompile Include="Network\NetworkManager.cpp" />
+    <ClCompile Include="Network\Packet.cpp" />
+    <ClCompile Include="Network\TcpSocket.cpp" />
+    <ClCompile Include="Network\WinSock\WinSockNetworkManager.cpp" />
+    <ClCompile Include="Network\WinSock\WinSockTcpSocket.cpp" />
+    <ClCompile Include="System\GameLoader.cpp" />
+    <ClCompile Include="System\GameManager.cpp" />
+    <ClCompile Include="System\GameState.cpp" />
+    <ClCompile Include="System\GLFW\GlfwGameLoader.cpp" />
+    <ClCompile Include="System\GLFW\MemoryManagerGlfw.cpp" />
+    <ClCompile Include="System\MemoryManager.cpp" />
+    <ClCompile Include="System\SystemManager.cpp" />
+    <ClCompile Include="System\Timer.cpp" />
+    <ClCompile Include="Threading\Lock.cpp" />
+    <ClCompile Include="Threading\Mutex.cpp" />
+    <ClCompile Include="Threading\Sleep.cpp" />
+    <ClCompile Include="Threading\Thread.cpp" />
+    <ClCompile Include="Threading\Win32\WinMutex.cpp" />
+    <ClCompile Include="Threading\Win32\WinThread.cpp" />
+    <ClCompile Include="Threading\WinSleep.cpp" />
+    <ClCompile Include="Utils\Logger.cpp" />
+    <ClCompile Include="Utils\SimpleProfiler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio\AudioManager.h" />
+    <ClInclude Include="Audio\IrrKlang\IrrAudioManager.h" />
+    <ClInclude Include="Audio\IrrKlang\IrrSound.h" />
+    <ClInclude Include="Audio\Sdl\SdlAudioManager.h" />
+    <ClInclude Include="Audio\Sdl\SdlSound.h" />
+    <ClInclude Include="Audio\Sound.h" />
+    <ClInclude Include="FileSystem\BaseDirectory.h" />
+    <ClInclude Include="FileSystem\BaseFile.h" />
+    <ClInclude Include="FileSystem\FileManager.h" />
+    <ClInclude Include="FileSystem\Stdio\StdioDirectory.h" />
+    <ClInclude Include="FileSystem\Stdio\StdioFile.h" />
+    <ClInclude Include="Graphics\Animation\AnimatedMesh.h" />
+    <ClInclude Include="Graphics\Animation\AnimBaker.h" />
+    <ClInclude Include="Graphics\Animation\AnimMat4.h" />
+    <ClInclude Include="Graphics\Animation\AnimQuat.h" />
+    <ClInclude Include="Graphics\Animation\AnimVec2.h" />
+    <ClInclude Include="Graphics\Animation\AnimVec3.h" />
+    <ClInclude Include="Graphics\Animation\AnimVec4.h" />
+    <ClInclude Include="Graphics\Animation\Blending.h" />
+    <ClInclude Include="Graphics\Animation\CCDSolver.h" />
+    <ClInclude Include="Graphics\Animation\cgltf.h" />
+    <ClInclude Include="Graphics\Animation\cgltf_write.h" />
+    <ClInclude Include="Graphics\Animation\Clip.h" />
+    <ClInclude Include="Graphics\Animation\CrossFadeController.h" />
+    <ClInclude Include="Graphics\Animation\CrossFadeTarget.h" />
+    <ClInclude Include="Graphics\Animation\Crowd.h" />
+    <ClInclude Include="Graphics\Animation\DualQuaternion.h" />
+    <ClInclude Include="Graphics\Animation\FABRIKSolver.h" />
+    <ClInclude Include="Graphics\Animation\Frame.h" />
+    <ClInclude Include="Graphics\Animation\GLTFLoader.h" />
+    <ClInclude Include="Graphics\Animation\IKLeg.h" />
+    <ClInclude Include="Graphics\Animation\Interpolation.h" />
+    <ClInclude Include="Graphics\Animation\Intersections.h" />
+    <ClInclude Include="Graphics\Animation\khrplatform.h" />
+    <ClInclude Include="Graphics\Animation\Pose.h" />
+    <ClInclude Include="Graphics\Animation\RearrangeBones.h" />
+    <ClInclude Include="Graphics\Animation\Skeleton.h" />
+    <ClInclude Include="Graphics\Animation\SkinningType.h" />
+    <ClInclude Include="Graphics\Animation\Track.h" />
+    <ClInclude Include="Graphics\Animation\Transform.h" />
+    <ClInclude Include="Graphics\Animation\TransformTrack.h" />
+    <ClInclude Include="Graphics\Camera3d.h" />
+    <ClInclude Include="Graphics\FrameBufferObject.h" />
+    <ClInclude Include="Graphics\GL\FrameBufferObjectGL3.h" />
+    <ClInclude Include="Graphics\GL\RenderManagerGL3.h" />
+    <ClInclude Include="Graphics\GL\ShaderGlsl.h" />
+    <ClInclude Include="Graphics\GL\VertexArrayObjectGL3.h" />
+    <ClInclude Include="Graphics\GL\VertexBufferObjectGL3.h" />
+    <ClInclude Include="Graphics\GraphicsEnums.h" />
+    <ClInclude Include="Graphics\Models\AnimatedModel.h" />
+    <ClInclude Include="Graphics\Models\ModelMaterial.h" />
+    <ClInclude Include="Graphics\Models\ModelMesh.h" />
+    <ClInclude Include="Graphics\Models\ModelObj.h" />
+    <ClInclude Include="Graphics\RenderManager.h" />
+    <ClInclude Include="Graphics\Shader.h" />
+    <ClInclude Include="Graphics\ShaderManager.h" />
+    <ClInclude Include="Graphics\Sprite.h" />
+    <ClInclude Include="Graphics\Texture.h" />
+    <ClInclude Include="Graphics\TextureManager.h" />
+    <ClInclude Include="Graphics\Text\FontManager.h" />
+    <ClInclude Include="Graphics\Text\TextPart.h" />
+    <ClInclude Include="Graphics\Text\TextureAtlas.h" />
+    <ClInclude Include="Graphics\Text\TexturedFont.h" />
+    <ClInclude Include="Graphics\VertexArrayObject.h" />
+    <ClInclude Include="Graphics\VertexBufferObject.h" />
+    <ClInclude Include="Graphics\VertexTypes.h" />
+    <ClInclude Include="Input\GamepadDevice.h" />
+    <ClInclude Include="Input\GLFW\GamepadDeviceGlfw.h" />
+    <ClInclude Include="Input\GLFW\InputManagerGlfw.h" />
+    <ClInclude Include="Input\GLFW\KeyboardDeviceGlfw.h" />
+    <ClInclude Include="Input\GLFW\MouseDeviceGlfw.h" />
+    <ClInclude Include="Input\InputDevice.h" />
+    <ClInclude Include="Input\InputEnums.h" />
+    <ClInclude Include="Input\InputManager.h" />
+    <ClInclude Include="Input\KeyboardDevice.h" />
+    <ClInclude Include="Input\KeyboardInput.h" />
+    <ClInclude Include="Input\MouseDevice.h" />
+    <ClInclude Include="Input\TouchDevice.h" />
+    <ClInclude Include="Math\Math.h" />
+    <ClInclude Include="Network\NetworkManager.h" />
+    <ClInclude Include="Network\Packet.h" />
+    <ClInclude Include="Network\TcpSocket.h" />
+    <ClInclude Include="Network\WinSock\WinSockNetworkManager.h" />
+    <ClInclude Include="Network\WinSock\WinSockTcpSocket.h" />
+    <ClInclude Include="System\GameLoader.h" />
+    <ClInclude Include="System\GameManager.h" />
+    <ClInclude Include="System\GameState.h" />
+    <ClInclude Include="System\GLFW\GlfwGameLoader.h" />
+    <ClInclude Include="System\GLFW\MemoryManagerGlfw.h" />
+    <ClInclude Include="System\MemoryManager.h" />
+    <ClInclude Include="System\SystemEnums.h" />
+    <ClInclude Include="System\SystemManager.h" />
+    <ClInclude Include="System\Timer.h" />
+    <ClInclude Include="Threading\BaseLock.h" />
+    <ClInclude Include="Threading\BaseMutex.h" />
+    <ClInclude Include="Threading\BaseThread.h" />
+    <ClInclude Include="Threading\Lock.h" />
+    <ClInclude Include="Threading\Mutex.h" />
+    <ClInclude Include="Threading\Sleep.h" />
+    <ClInclude Include="Threading\Thread.h" />
+    <ClInclude Include="Threading\Win32\WinMutex.h" />
+    <ClInclude Include="Threading\Win32\WinSleep.h" />
+    <ClInclude Include="Threading\Win32\WinThread.h" />
+    <ClInclude Include="Utils\Logger.h" />
+    <ClInclude Include="Utils\PlatformConfigurator.h" />
+    <ClInclude Include="Utils\SimpleProfiler.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{053d5693-16e5-49b8-bfcb-2791ebc23310}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Andromeda</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\lib\x64\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\lib\x86\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\libd\x64\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\libd\x86\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;ANDROMEDA_PC;ANDROMEDA_GLFW;ANDROMEDA_GL3;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;..\glm;..\dirent\include;..\stb;..\tiny_gltf_loader;..\tiny_obj_loader;..\SDL2\include;..\SDL2_mixer\include;..\libportaudio\include;..\libglfw3\include;..\libfreetypegl;..\libfreetype\include;..\libglew;..\irrKlang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;ANDROMEDA_PC;ANDROMEDA_GLFW;ANDROMEDA_GL3;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;..\glm;..\dirent\include;..\stb;..\tiny_gltf_loader;..\tiny_obj_loader;..\SDL2\include;..\SDL2_mixer\include;..\libportaudio\include;..\libglfw3\include;..\libfreetypegl;..\libfreetype\include;..\libglew;..\irrKlang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;ANDROMEDA_PC;ANDROMEDA_GLFW;ANDROMEDA_GL3;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;..\glm;..\dirent\include;..\stb;..\tiny_gltf_loader;..\tiny_obj_loader;..\SDL2\include;..\SDL2_mixer\include;..\libportaudio\include;..\libglfw3\include;..\libfreetypegl;..\libfreetype\include;..\libglew;..\irrKlang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;ANDROMEDA_PC;ANDROMEDA_GLFW;ANDROMEDA_GL3;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;..\glm;..\dirent\include;..\stb;..\tiny_gltf_loader;..\tiny_obj_loader;..\SDL2\include;..\SDL2_mixer\include;..\libportaudio\include;..\libglfw3\include;..\libfreetypegl;..\libfreetype\include;..\libglew;..\irrKlang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

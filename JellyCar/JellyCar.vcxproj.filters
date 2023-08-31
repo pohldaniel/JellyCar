@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Car">
+      <UniqueIdentifier>{62f6325a-7b6f-476e-a830-733cb67b5037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{1e68fae6-f82b-4e7d-88ad-cf5d50046b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JellyPhysics">
+      <UniqueIdentifier>{96a3a42d-175a-4c38-887e-0813610792af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Levels">
+      <UniqueIdentifier>{d6c2ba3e-e629-49cc-a423-e03ab17f15cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{d2782e25-1049-4487-a578-cdb4a921c3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Levels\SimpleStruct">
+      <UniqueIdentifier>{1ad302b9-4975-4de2-9cd5-8d1e82d4a0d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JellyCar\Car\Car.cpp">
+      <Filter>Source Files\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Car\Chassis.cpp">
+      <Filter>Source Files\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Car\GameBallonBody.cpp">
+      <Filter>Source Files\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Car\SuspensionShock.cpp">
+      <Filter>Source Files\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Car\Tire.cpp">
+      <Filter>Source Files\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Game\JellyCore.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Game\JellyGame.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Game\JellyIntro.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Game\JellyMenuBetter.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Game\JellyOptions.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Game\JellySplash.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyPhysics\AABB.cpp">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyPhysics\Body.cpp">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyPhysics\ClosedShape.cpp">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyPhysics\InternalSpring.cpp">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyPhysics\PointMass.cpp">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyPhysics\PressureBody.cpp">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyPhysics\SpringBody.cpp">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyPhysics\Vector2.cpp">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyPhysics\VectorTools.cpp">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyPhysics\World.cpp">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Levels\GamePressureBody.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Levels\GameSpringBody.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Levels\KinematicControl.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Levels\KinematicMotor.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Levels\KinematicPlatform.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Levels\LevelManager.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Levels\LevelSoftBody.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Utils\AudioHelper.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Utils\InputHelper.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\Utils\JellyHelper.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\JellyCar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\JellyGameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyCar\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JellyCar\Car\Car.h">
+      <Filter>Source Files\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Car\Chassis.h">
+      <Filter>Source Files\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Car\GameBallonBody.h">
+      <Filter>Source Files\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Car\SuspensionShock.h">
+      <Filter>Source Files\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Car\Tire.h">
+      <Filter>Source Files\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Game\JellyCore.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Game\JellyGame.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Game\JellyIntro.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Game\JellyMenuBetter.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Game\JellyOptions.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Game\JellySplash.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\AABB.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\Bitmask.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\Body.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\ClosedShape.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\InternalSpring.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\JellyPhysics.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\JellyPrerequisites.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\PointMass.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\PressureBody.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\SpringBody.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\Vector2.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\VectorTools.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyPhysics\World.h">
+      <Filter>Source Files\JellyPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\SimpleStruct\BodyObject.h">
+      <Filter>Source Files\Levels\SimpleStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\SimpleStruct\BodyObjectInfo.h">
+      <Filter>Source Files\Levels\SimpleStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\SimpleStruct\BodyPoint.h">
+      <Filter>Source Files\Levels\SimpleStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\SimpleStruct\BodyPolygon.h">
+      <Filter>Source Files\Levels\SimpleStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\SimpleStruct\BodySpring.h">
+      <Filter>Source Files\Levels\SimpleStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\SimpleStruct\GameObject.h">
+      <Filter>Source Files\Levels\SimpleStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\GamePressureBody.h">
+      <Filter>Source Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\GameSpringBody.h">
+      <Filter>Source Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\InputHelper.h">
+      <Filter>Source Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\KinematicControl.h">
+      <Filter>Source Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\KinematicMotor.h">
+      <Filter>Source Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\KinematicPlatform.h">
+      <Filter>Source Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\LevelInfo.h">
+      <Filter>Source Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\LevelManager.h">
+      <Filter>Source Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\LevelSoftBody.h">
+      <Filter>Source Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\ObjectInfo.h">
+      <Filter>Source Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Levels\SkinInfo.h">
+      <Filter>Source Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Utils\AudioHelper.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Utils\InputHelper.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\Utils\JellyHelper.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\JellyGameManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyCar\pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
