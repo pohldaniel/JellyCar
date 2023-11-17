@@ -194,7 +194,7 @@ void JellyIntro::Update(GameManager* manager)
 
 		JellyMenuBetter* jelly = new JellyMenuBetter(_core);
 		//JellyOptions* jelly = new JellyOptions(_core);
-		jelly->Init();
+		//jelly->Init();
 
 		manager->PushState(jelly);
 		_end = true;
